@@ -1,0 +1,53 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "Cancela eso",
+            "Cancela"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "Ayudame",
+            "Ayuda"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "Detente",
+            "Para",
+            "Alto"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "userInput",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "QwenIntent",
+          "samples": [
+            "Quisiera saber {userInput}",
+            "Dime {userInput}",
+            "Explícame {userInput}",
+            "Responde {userInput}",
+            "Quiero saber {userInput}",
+            "Cuentame de {userInput}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "qwen cloud model"
+    }
+  }
+}
